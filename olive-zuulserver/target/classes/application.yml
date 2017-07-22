@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: olive-zuulserver
+
+server:
+  port: 8902
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8601/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /olive-service-a/**
+      serviceId: olive-service-a
+    api-b:
+      path: /olive-service-b/**
+      serviceId: olive-service-b
+  sensitive-headers:  #设置忽略的头信息，设置为空能解决会话保持问题
+  add-host-header: true #设为true才能保持Host头信息处理正确

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: olive-client-a
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.info
+Build-Jdk: 1.7.0_79
+Built-By: win7-64
+Created-By: Maven Integration for Eclipse
+Implementation-URL: http://projects.spring.io/spring-boot/olive-spring
+ cloud-dev/olive-client-a/
+

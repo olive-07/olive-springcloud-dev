@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: olive-service-b
+
+server:
+  port: 8702 #${PORT:${SERVER_PORT:0}} 随机指定个没使用的端口
+
+eureka:
+  client:
+    serviceUrl:
+          defaultZone: http://localhost:8601/eureka/ #eureka服务注册地址
