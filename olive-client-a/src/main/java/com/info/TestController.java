@@ -15,7 +15,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
  * @date 2017-07-08
  */
 @RestController
-@RefreshScope
+//@RefreshScope
 public class TestController {
 
 	@Autowired
@@ -24,20 +24,22 @@ public class TestController {
 	@RequestMapping("/hi")
 	@HystrixCommand(fallbackMethod = "hiFallback")
 	public String hi(@RequestParam String id) {
-		return restTemplate.getForObject("http://olive-service-a/hi?id=" + id, String.class);
+		String a = restTemplate.getForObject("http://olive-service-a/hi?id=" + id, String.class);
+		String b = restTemplate.getForObject("http://olive-service-b/hi?id=" + id, String.class);
+		return a+b;
 	}
 
 	public String hiFallback(String id) {
 		return "hi, " + id + ", error!";
 	}
 
-	@Value("${ip}")
-	private String ip;
-	@Value("${port}")
-	private String port;
-
-	@RequestMapping("/getProperties")
-	public String getProperties() {
-		return ip + " : " + port;
-	}
+//	@Value("${ip}")
+//	private String ip;
+//	@Value("${port}")
+//	private String port;
+//
+//	@RequestMapping("/getProperties")
+//	public String getProperties() {
+//		return ip + " : " + port;
+//	}
 }

@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableDiscoveryClient
 @RestController
-public class ServiceApplication {
+public class AServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceApplication.class, args);
+		SpringApplication.run(AServiceApplication.class, args);
 	}
 
 	@Value("${spring.application.name}")

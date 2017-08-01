@@ -1,11 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Vendor: Pivotal Software, Inc.
 Implementation-Title: olive-service-b
-Implementation-Version: 0.0.1
-Implementation-Vendor-Id: com.info
+Implementation-Version: 1.3.5.RELEASE
+Implementation-Vendor-Id: olive-service-b
 Build-Jdk: 1.7.0_79
 Built-By: win7-64
 Created-By: Maven Integration for Eclipse
-Implementation-URL: http://projects.spring.io/spring-boot/olive-spring
- cloud-dev/olive-service-b/
 
