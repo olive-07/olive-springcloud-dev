@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-client-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-client-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-configserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-eurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-service-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-service-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/olive-zuulserver" charset="UTF-8" />
+  </component>
+</project>

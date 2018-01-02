@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/olive-client-a/olive-client-a.iml" filepath="$PROJECT_DIR$/olive-client-a/olive-client-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-client-b/olive-client-b.iml" filepath="$PROJECT_DIR$/olive-client-b/olive-client-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-configserver/olive-configserver.iml" filepath="$PROJECT_DIR$/olive-configserver/olive-configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-eurekaserver/olive-eurekaserver.iml" filepath="$PROJECT_DIR$/olive-eurekaserver/olive-eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-service-a/olive-service-a.iml" filepath="$PROJECT_DIR$/olive-service-a/olive-service-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-service-b/olive-service-b.iml" filepath="$PROJECT_DIR$/olive-service-b/olive-service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-springcloud-dev.iml" filepath="$PROJECT_DIR$/olive-springcloud-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/olive-zuulserver/olive-zuulserver.iml" filepath="$PROJECT_DIR$/olive-zuulserver/olive-zuulserver.iml" />
+    </modules>
+  </component>
+</project>

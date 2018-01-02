@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/olive-07/springcloud-config/ #git仓库地址
+          uri: https://github.com/olive-07/olive-springcloud-dev-config/ #git仓库地址
           searchPaths: demo* #搜索路径
 #          username: username
 #          password: password
